@@ -6,20 +6,163 @@ h1 {
     font-family: bely-display, sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	font-size: 30pt;
 	color: 031802;
 	background: f0f6f0; 
+	margin: 0px;
+
+}
+
+h2 {
+font-family: bely, serif;
+font-weight: 700;
+font-style: bold;
+font-size: 20pt;
+margin-left: 0px;
+margin-top: 50px;
+margin-bottom: 0px;
+color: #4a4a4a;
+}
+
+h3 {
+font-family: bely, serif;
+font-weight: 700;
+font-style: normal;
+font-size: 12pt;
+margin-left: 0px;
+margin-top: 5px;
+margin-bottom: 0px;
 
 }
 
 p {
 font-family: bely, serif;
-
 font-weight: 700;
-
 font-style: normal;
+font-size: 12pt;
+position: absolute;
+top: 200px;
+left: 35%;
+right: 35%;
+text-align: justify;
+resize: none; 
+}
+
+.evergreen{
+	color: #024202;
+}
+
+.violet {
+	color: #2f0e52;
+}
+
+.orange {
+	color: #602504;
+}
+
+.crimson {
+	color: #880505;
+}
+
+.ivory {
+	color: #bbb68f;
+}
+
+.title {
+	position:fixed;
+	top:-20px;
+
+}
+
+.bronze {
+	color: brown;
+}
+
+body {
+	background: white;
 }
 
 .lavenderphoto {
-	max-width: : 100px;
-    height: auto;
+position:fixed;
+    bottom:0px;
+mix-blend-mode: multiply;
+pointer-events: none;
+}
+
+.lavenderphoto.artmode {
+visibility: hidden;
+
+}
+
+button {
+	font-family: bely, serif;
+font-weight: 700;
+font-style: normal;
+position: fixed;
+top: 5px;
+right: 5px;
+z-index: 1000;
+}
+
+button:hover{
+	background: rgb(200 200 200);
+	
+
+}
+
+.violetartmode {
+	visibility: hidden;
+	position: absolute;
+    bottom:0px;
+    left: 0px;
+}
+
+.violetartmode.artmode {
+	visibility: visible;
+	z-index: 100;
+}
+
+
+#containter {
+	z-index: 100;
+}
+
+.active1 {
+	transition: .4s ease;
+	opacity:0;
+}
+
+
+body.artmode {
+	color:#2f0f52;
+	background: #2f0f52;
+}
+
+p.artmode {
+	visibility: hidden;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#artmode {
+position: fixed;
+top: 5px;
+right: 5px;
+z-index: 1000;
+}
+
+#artmode:hover{
+cursor: pointer;
+
 }
