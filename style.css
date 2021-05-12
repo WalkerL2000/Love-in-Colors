@@ -19,7 +19,7 @@ font-weight: 700;
 font-style: bold;
 font-size: 20pt;
 margin-left: 0px;
-margin-top: 50px;
+margin-top: 45px;
 margin-bottom: 0px;
 color: #4a4a4a;
 }
@@ -30,7 +30,7 @@ font-weight: 700;
 font-style: normal;
 font-size: 12pt;
 margin-left: 0px;
-margin-top: 5px;
+margin-top: 1px;
 margin-bottom: 0px;
 
 }
@@ -46,10 +46,20 @@ left: 35%;
 right: 35%;
 text-align: justify;
 resize: none; 
+margin-top: 10px
 }
 
 .evergreen{
 	color: #024202;
+}
+
+.evergreentitle{
+	font-family: bely-display, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 10pt;
+	color: #024202;
+	margin-bottom: 10px
 }
 
 .violet {
@@ -75,7 +85,42 @@ resize: none;
 }
 
 .bronze {
+	color: #563529;
+}
+
+.bronzetitle{
+	font-family: bely-display, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 10pt;
+	color: #563529;
+	margin-bottom: 10px
+}
+
+.crimson {
 	color: brown;
+}
+
+.crimsontitle{
+	font-family: bely-display, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 10pt;
+	color: brown;
+	margin-bottom: 10px
+}
+
+.burnt {
+	color: #8e3601;
+}
+
+.burnttitle{
+	font-family: bely-display, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 10pt;
+	color: #8e3601;
+	margin-bottom: 10px
 }
 
 body {
@@ -85,6 +130,8 @@ body {
 .lavenderphoto {
 position:fixed;
     bottom:0px;
+    left: 0px;
+    right: 0px;
 mix-blend-mode: multiply;
 pointer-events: none;
 }
@@ -165,4 +212,18 @@ z-index: 1000;
 #artmode:hover{
 cursor: pointer;
 
+}
+
+.nextbutton {
+position: fixed;
+bottom: 5px;
+right: 5px;
+z-index: 1000;
+}
+
+.backbutton {
+position: fixed;
+bottom: 5px;
+left: 5px;
+z-index: 1000;
 }
